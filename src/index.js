@@ -46,3 +46,9 @@ import loadAboutPage from './about.js'
 aboutButton.addEventListener('click', ()=>{
     loadAboutPage();
 })
+
+import loadMenuPage from './menu.js';
+
+menuButton.addEventListener('click', ()=>{
+    loadMenuPage();
+})
