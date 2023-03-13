@@ -20,4 +20,11 @@ const pageContainer = document.createElement('div');
 pageContainer.setAttribute('class', 'container')
 page.appendChild(pageContainer);
 
+window.onload(loadHomePage());
+
+import loadHomePage from './homepage.js'
+
+homeButton.addEventListener('click', ()=>{
+    loadHomePage();
+})
 
