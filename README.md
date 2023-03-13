@@ -5,4 +5,4 @@ restauraunt page project from the odin project, concepts applied in this project
 - Using NPM <br>
 - Solidifying DOM manipulation practices by loading entire HTML content with javscript<br>
 Note: <br>
-- Minimum styling was used 
+- Minimal styling was used 
