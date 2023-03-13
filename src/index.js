@@ -20,11 +20,19 @@ const pageContainer = document.createElement('div');
 pageContainer.setAttribute('class', 'container')
 page.appendChild(pageContainer);
 
-window.onload(loadHomePage());
 
 import loadHomePage from './homepage.js'
+
+window.onload = function () {
+    loadHomePage();
+}
 
 homeButton.addEventListener('click', ()=>{
     loadHomePage();
 })
 
+import loadAboutPage from './about.js'
+
+aboutButton.addEventListener('click', ()=>{
+    loadAboutPage();
+})
