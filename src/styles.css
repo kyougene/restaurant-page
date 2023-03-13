@@ -11,7 +11,13 @@ body {
     height: 100%;
     width: 100%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-container {
+    display: flex;
+
 }
 
 .container {
@@ -24,5 +30,10 @@ body {
     width: 100px;
     background-color: transparent;
     border: 1px solid black;
-    font-size: 1.2rem;
+    font-size: 2.0rem;
+    
+}
+
+.button:hover{
+    cursor: pointer;
 }
