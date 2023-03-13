@@ -4,3 +4,5 @@ restauraunt page project from the odin project, concepts applied in this project
 - Using Modules and webpack to load modules<br>
 - Using NPM <br>
 - Solidifying DOM manipulation practices by loading entire HTML content with javscript<br>
+Note: <br>
+- Minimum styling was used 
